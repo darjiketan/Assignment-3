@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:pink;
+}
+
+@media (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }    
+
+.card-containar{
+    display: flexbox; 
+    display: flex; 
+    justify-content: center;
+    margin-top: 100px;
+}
+.card{
+    width: 325px;
+    background-color:aqua;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2); 
+    margin: 20px;
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    height: 50%;
+    
+}
+.card-contant{
+     padding: 16px; 
+}
+.card-contant h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-contant p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+
+}

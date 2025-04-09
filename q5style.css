@@ -1,0 +1,24 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(246, 240, 255);
+    font-family: arial,sans-serif;
+}
+.nevbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: aqua;
+    color: white;
+    padding: 10px 20px;
+}
+.nevbar a{
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.nevbar a:hover{
+    color: red;
+}
